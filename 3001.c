@@ -14,5 +14,5 @@ int main(){
         }
         sum+=pow(-1,i+1)*fs;
     }
-    printf("%.6lf",sum);
+    printf("%.6f",sum);
 }
