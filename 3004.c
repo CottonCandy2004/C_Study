@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int n;
+    int n,output_repeat=2;
     scanf("%d",&n);
     for (int i = 1; i < n+1; i++)
     {
-        for (int j = 0; j < 2; j++){ //2个三角形
+        for (int j = 0; j < output_repeat; j++){ //2个三角形
             for (int p = 0; p < n-i; p++) //输出左侧空白
             {
                 printf(" ");
@@ -14,12 +14,13 @@ int main(){
             {
                 printf("*");
             }
-            for (int p = 0; p < n-i; p++) //输出右侧空白
-            {
-                printf(" ");
+            if (j!=(output_repeat-1)){
+                for (int p = 0; p < n-i; p++) //输出右侧空白
+                {
+                    printf(" ");
+                }
             }
         }
         printf("\n");
     }
-    
 }

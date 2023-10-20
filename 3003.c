@@ -9,7 +9,12 @@ int main(){
         }
         for (int p = i; p < 10; p++) //输出单行乘法表
         {
-            printf("%d*%d=%2d  ",i,p,i*p);
+            if (p!=9)
+            {
+                printf("%d*%d=%2d  ",i,p,i*p);
+            }else{
+                printf("%d*%d=%2d",i,p,i*p);
+            }
         }
         printf("\n");
     }
