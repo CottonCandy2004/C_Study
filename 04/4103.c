@@ -18,6 +18,10 @@ int main()
     int n;
     scanf("%d",&n);
     int len=getcharlength(a);
+    if (n>getcharlength(b))
+    {
+        n=getcharlength(b);
+    }
     for (int i = 0; i < n; i++)
     {
         a[len+i]=b[i];

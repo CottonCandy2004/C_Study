@@ -1,10 +1,10 @@
 #include <stdio.h>
-#define M 6
-#define N 4
 
 int main()
 {
-    int map[M][N];
+    int map[10][10];
+    int M,N;
+    scanf("%d%d",&M,&N);
     for (int i = 0; i < M; i++)
     {
         for (int p = 0; p < N; p++)
