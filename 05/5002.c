@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void ball(int n,double *p,double *s) //使用指针带出2个数据
+void ball(int n,double *p,double *s) //使用指针带出2个数据，也可以用全局变量带出
 {
     if (n==0)
     {
