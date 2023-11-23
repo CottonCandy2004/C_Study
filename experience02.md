@@ -1,4 +1,4 @@
-#(1)
+# (1)
 ```c
 #include <stdio.h>
 
@@ -23,7 +23,7 @@ int main()
 }
 ```
 ---
-#(2)
+# (2)
 ```c
 #include <stdio.h>
 
@@ -43,7 +43,7 @@ int main()
 }
 ```
 ---
-#(3)
+# (3)
 ```c
 #include <stdio.h>
 
@@ -85,7 +85,7 @@ int main(){
 }
 ```
 ---
-#(4)
+# (4)
 ```c
 #include <stdio.h>
 

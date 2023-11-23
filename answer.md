@@ -1,4 +1,4 @@
-#实验一
+# 实验一
 ```C
 #include <stdio.h>
 
@@ -12,7 +12,7 @@ int main(){
 }
 ```
 ---
-#实验二
+# 实验二
 ```C
 #include <stdio.h>
 
