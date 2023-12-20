@@ -15,7 +15,9 @@ void input_stu(struct student stu[])
     int i;
     for (i = 0; i < M; i++)
     {
-        scanf("%d %s", &stu[i].id, stu[i].name);
+        stu[i].sum = 0;
+        scanf("%d", &stu[i].id);getchar();
+        gets(stu[i].name);
         for (int p = 0; p < N; p++)
         {
             scanf("%d", &stu[i].score[p]);
@@ -27,10 +29,10 @@ void input_stu(struct student stu[])
 
 void output_stu(struct student stu[],int i)
 {
-    printf("%d %s ",stu[i].id, stu[i].name);
+    printf("%d,%s,",stu[i].id, stu[i].name);
     for (int p = 0; p < N; p++)
     {
-        printf("%d ", stu[i].score[p]);
+        printf("%d,", stu[i].score[p]);
     }
     printf("%.2f\n", stu[i].average);
 }

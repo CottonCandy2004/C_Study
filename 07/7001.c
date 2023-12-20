@@ -4,7 +4,7 @@ struct date
     int year;
     int month;
     int day;
-} dates;
+};
 int leap_year(int year)
 {
     if (year % 400 == 0)
@@ -32,6 +32,7 @@ int day_month_date(struct date dates)
 }
 int main()
 {
+	struct date dates;
     scanf("%d%d%d", &dates.year, &dates.month, &dates.day);
     printf("%d",day_month_date(dates));
 }
