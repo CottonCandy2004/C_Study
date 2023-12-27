@@ -16,7 +16,8 @@ void input_stu(struct student stu[])
     for (i = 0; i < M; i++)
     {
         stu[i].sum = 0;
-        scanf("%d", &stu[i].id);getchar();
+        scanf("%d", &stu[i].id);
+        getchar();
         gets(stu[i].name);
         for (int p = 0; p < N; p++)
         {
